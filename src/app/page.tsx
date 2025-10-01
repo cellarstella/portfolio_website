@@ -9,7 +9,7 @@ import IntroSection from "./component/IntroSection";
 export default function Home() {
   return (
     <div className="font-sans">
-      <header className="flex flex-col align-end linen-header pt-8 pl-8 pr-8 h-60">
+      <header className="flex flex-col align-end linen-header pt-8 pl-8 pr-8 h-40">
         <div className="flex gap-4 mt-2 min-w-32 justify-end">
           <SocialImage
             image="/LinkedIn_icon.svg"
@@ -29,7 +29,7 @@ export default function Home() {
         </div><div className="flex flex-row gap-2 justify-between">
 
           <h1
-            className="text-4xl md:text-6xl font-bold text-white relative top-2.5"
+            className="text-4xl xl:text-5xl 2xl:text-6xl font-bold text-white relative top-2.5"
           >
             Laura Pelofske: Senior Software Developer
           </h1>
