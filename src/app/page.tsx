@@ -1,10 +1,10 @@
 import SocialImage from "./component/SocialImage";
 import IntroSection from "./component/IntroSection";
-import SkillsSection from "./component/SkillsSection";
-import PortfolioSection from "./component/PortfolioSection";
-import ExperienceSection from "./component/ExperienceSection";
-import TestimonialsSection from "./component/TestimonialsSection";
-import ContactSection from "./component/ContactSection";
+// import SkillsSection from "./component/SkillsSection";
+// import PortfolioSection from "./component/PortfolioSection";
+// import ExperienceSection from "./component/ExperienceSection";
+// import TestimonialsSection from "./component/TestimonialsSection";
+// import ContactSection from "./component/ContactSection";
 
 export default function Home() {
   return (
