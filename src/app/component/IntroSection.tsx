@@ -10,7 +10,7 @@ export default function IntroSection() {
       </h2>
       <h3 className="text-l font-bold m-4">This website</h3>
       <p className="text-xl">
-        It's not pretty; it's content first. I made this website using Next.js and React, outputting a static website using Github pages. I am using Typescript, which I&apos;m used to, and Tailwind, which I&apos;m new to. I&apos;ve been using CSS and various CSS tools since 2001, so Tailwind is pretty straightforward to use!
+        It&apos;s not pretty; it&apos;s content first. I made this website using Next.js and React, outputting a static website using Github pages. I am using Typescript, which I&apos;m used to, and Tailwind, which I&apos;m new to. I&apos;ve been using CSS and various CSS tools since 2001, so Tailwind is pretty straightforward to use!
       </p>
       <h3 className="text-l font-bold m-4">Sustainable Gardening App</h3>
       <div><img  className="mx-auto" src="/app_firstpass.png" alt="first pass at app"/></div>
