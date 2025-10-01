@@ -45,3 +45,7 @@ header {
 ol, ul, menu {
     list-style: disc;
 }
+
+a {
+  color: #51a2ff
+}

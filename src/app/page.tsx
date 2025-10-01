@@ -1,4 +1,10 @@
 import SocialImage from "./component/SocialImage";
+import IntroSection from "./component/IntroSection";
+import SkillsSection from "./component/SkillsSection";
+import PortfolioSection from "./component/PortfolioSection";
+import ExperienceSection from "./component/ExperienceSection";
+import TestimonialsSection from "./component/TestimonialsSection";
+import ContactSection from "./component/ContactSection";
 
 export default function Home() {
   return (
@@ -17,7 +23,7 @@ export default function Home() {
           />
           <SocialImage
             image="/file.svg"
-            link="./files/LPelofske_resume.pdf"
+            link="/LauraPelofske_Resume_2025.pdf"
             alt="PDF resume"
           />
         </div><div className="flex flex-row gap-2 justify-between">
@@ -31,26 +37,12 @@ export default function Home() {
       </header>
       {/* grid items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20" */}
       <main className="flex flex-col gap-[32px] row-start-2 p-8 pb-20 items-center sm:items-start">
-        {/* intro section */}
-        <section>
-          <p className="text-lg md:text-xl mb-6">
-            I am a versatile and highly adaptable software development contributor, adept in utilizing ES6 JavaScript, Typescript, Testing Library, React, and diverse CSS methodologies to surpass user acceptance criteria. My expertise truly stands out when seamlessly translating visual designs to any framework. With years of experience, I swiftly identify potential UI pitfalls and consistently provide alternative solutions for integrating new interactions into complex applications across various devices. Recognized as a dependable resource and mentor in UI styling, I prioritize documenting and commenting on my work for the benefit of others.
-          </p>
-        </section>
-        {/* skills section */}
-        <h2>Skills</h2>
-        <ul className="list-disc">
-          <li>Next.js, React, TypeScript, Node.js</li>
-          <li>LESS, SCSS, Tailwind, CSS3 and beyond</li>
-          <li>Github, Agile, JIRA, Trello</li>
-          <li>GraphQL, SQL, Python, some Java</li>
-          <li>Written communication, User Experience, Accessibility (WCAG 2.2)</li>
-          <li>SCRUM leadership, Roadmapping, cross functional communication and problem solving</li>
-        </ul>
-        {/* portfolio section */}
-        {/* experience section */}
-        {/* testimonials section */}
-        {/* contact section */}
+        <IntroSection />
+        {/* <SkillsSection />
+        <PortfolioSection />
+        <ExperienceSection />
+        <TestimonialsSection />
+        <ContactSection /> */}
       </main>
       <footer className="py-6 text-center text-sm text-gray-500">
         © {new Date().getFullYear()} Laura Pelofske. All rights reserved.
