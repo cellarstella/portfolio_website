@@ -2,8 +2,16 @@
   "version": 3,
   "pages404": true,
   "caseSensitive": false,
-  "basePath": "",
+  "basePath": "/portfolio_website",
   "redirects": [
+    {
+      "source": "/portfolio_website/",
+      "destination": "/portfolio_website",
+      "basePath": false,
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^/portfolio_website/$"
+    },
     {
       "source": "/:path+/",
       "destination": "/:path+",
@@ -33,10 +41,28 @@
       "namedRegex": "^/_not\\-found(?:/)?$"
     },
     {
+      "page": "/examples",
+      "regex": "^/examples(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/examples(?:/)?$"
+    },
+    {
+      "page": "/experience",
+      "regex": "^/experience(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/experience(?:/)?$"
+    },
+    {
       "page": "/favicon.ico",
       "regex": "^/favicon\\.ico(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/transactions",
+      "regex": "^/transactions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/transactions(?:/)?$"
     }
   ],
   "dataRoutes": [],

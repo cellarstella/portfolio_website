@@ -1,0 +1,110 @@
+{
+  "customers": [
+    {
+      "customer_id": "cust_12345",
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@example.com",
+      "orders": [
+        {
+          "order_id": "ord_1001",
+          "date": "2025-09-22",
+          "status": "shipped",
+          "total_amount": 105.50,
+          "items": [
+            {
+              "item_id": "prod_a1",
+              "name": "Wireless Mouse",
+              "quantity": 1,
+              "price": 25.00
+            },
+            {
+              "item_id": "prod_b2",
+              "name": "Mechanical Keyboard",
+              "quantity": 1,
+              "price": 80.50
+            }
+          ]
+        },
+        {
+          "order_id": "ord_1002",
+          "date": "2025-09-23",
+          "status": "delivered",
+          "total_amount": 15.99,
+          "items": [
+            {
+              "item_id": "prod_c3",
+              "name": "USB-C Cable",
+              "quantity": 2,
+              "price": 7.99
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "customer_id": "cust_67890",
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@example.com",
+      "orders": [
+        {
+          "order_id": "ord_2001",
+          "date": "2025-09-24",
+          "status": "processing",
+          "total_amount": 750.00,
+          "items": [
+            {
+              "item_id": "prod_d4",
+              "name": "HD Monitor",
+              "quantity": 1,
+              "price": 350.00
+            },
+            {
+              "item_id": "prod_e5",
+              "name": "External Hard Drive",
+              "quantity": 2,
+              "price": 200.00
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "customer_id": "cust_11223",
+      "first_name": "Alice",
+      "last_name": "Johnson",
+      "email": "alice.johnson@example.com",
+      "orders": [
+        {
+          "order_id": "ord_3001",
+          "date": "2025-09-21",
+          "status": "delivered",
+          "total_amount": 45.00,
+          "items": [
+            {
+              "item_id": "prod_f6",
+              "name": "Headphones",
+              "quantity": 1,
+              "price": 45.00
+            }
+          ]
+        },
+        {
+          "order_id": "ord_3002",
+          "date": "2025-09-24",
+          "status": "shipped",
+          "total_amount": 8.50,
+          "items": [
+            {
+              "item_id": "prod_g7",
+              "name": "Phone Case",
+              "quantity": 1,
+              "price": 8.50
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
